@@ -1,4 +1,4 @@
-# Martin David Möller
+# Martin Möller
 
 **Adresse:** Belvederevej 13a, 3000 Helsingør  
 **Telefon:** 31 55 79 04  
