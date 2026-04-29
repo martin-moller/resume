@@ -3,6 +3,8 @@
 **Adresse:** Belvederevej 13a, 3000 Helsingør  
 **Telefon:** 31 55 79 04  
 **E-mail:** moller.martin@gmail.com  
+**LinkedIn:** linkedin.com/in/martin-möller-6bb3b72  
+**GitHub:** github.com/martin-moller  
 **Født:** 21. juli 1972  
 **Civilstatus:** Gift med June — Børn: Malthe (f. 2004), Eskild (f. 2008)
 
