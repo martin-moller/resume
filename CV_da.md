@@ -10,14 +10,15 @@
 
 ## Resume
 
-Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som de facto eneansvarlig opbygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og deltaget i platformsmigreringer. Jeg har desuden solid erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
+Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som eneansvarlig opbygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og deltaget i platformsmigreringer. Jeg har desuden solid erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
+
 ---
 
 ## IT-kompetencer
 
 **DevOps & platform:** Docker, Kubernetes (EKS), ArgoCD, Helm, Terraform, Jenkins, CI/CD pipelines, SonarQube, Traefik
 **AWS:** EKS, EBS, NLB/ALB, VPC, Secrets Manager, ElastiCache
-**Identitet & sikkerhed:** Keycloak (v17–v26), NemLogin, MitID, SAML, OCES3/PKCS12, keycloak-config-cli
+**Identitet & sikkerhed:** Keycloak (v17→v26), NemLogin, MitID, SAML, OCES3/PKCS12, keycloak-config-cli
 **Java / Backend:** Java (8→17), Spring Boot, JSP, JSTL, SOAP, REST
 **Databaser:** Oracle, MySQL, PLSQL, SQL
 **Servere & middleware:** Tomcat, IBM WebSphere
@@ -89,8 +90,6 @@ Analyse af indgående kemikalier og færdige hygiejneprodukter.
 |---|---|---|
 | 2000–2004 | Cand.scient., Datalogi | Lunds Universitet & Den Kgl. Veterinær- og Landbohøjskole, København |
 | 1993–1999 | Cand.scient., Kemiteknik | Lunds Tekniske Højskole, Sverige |
-
----
 
 ---
 
