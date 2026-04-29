@@ -37,17 +37,19 @@ Softwareudvikler og de facto DevOps-ansvarlig med ansvar for implementering, dri
 - Etablering og vedligeholdelse af CI/CD pipelines med Jenkins, herunder integreret SonarQube-analyse
 - Infrastructure-as-code med Terraform på AWS (EKS, EBS, NLB/ALB, VPC, ElastiCache)
 - GitOps-deployment med ArgoCD og Helm
-- Opgradering af Keycloak fra v17 til v26 på tværs af alle miljøer; konfigurationsmigrering med keycloak-config-cli, NemLogin/MitID-integration via SAML og certifikathåndtering med OCES3/PKCS12
-- Deployment af Keycloak til intern applikation for administrativ adgang til skattedata (5-personers projektgruppe); ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
+- Konfiguration og drift af Traefik som ingress controller
+- Opgradering af Keycloak fra v17 til v26 på tværs af alle miljøer. Konfigurationsmigrering med keycloak-config-cli, NemLogin/MitID-integration via SAML og certifikathåndtering med OCES3/PKCS12
+- Deployment af Keycloak til intern applikation for administrativ adgang til skattedata (5-personers projektgruppe). Ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
 - Migrering af 8 applikationer fra Java 8 til Java 17
+- Migrering af appliktioner fra IBM WebSphere 8.5 til Tomcat fra java 1.8 til java 17. Ansvarlig for SonarQube-opsætning, migrering af keystores og truststores og tilretning af property-filer
 - Opgradering af ElastiCache Redis på AWS
 - Migrering af adgangskoder, secrets og certifikater til AWS Secrets Manager
-- Løste produktionskritisk integrationsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag; deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD
+- Løste produktionskritisk integrationsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag. Deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD
 
 **Java-udvikling — udvalgte projekter:**
-- Implementering af integration fra Spring Boot til F2 (cBrains sagsbehandlingsplatform for det offentlige) via SOAP; leveret inden for en stram deadline på én måned
+- Implementering af integration fra Spring Boot til F2 (cBrains sagsbehandlingsplatform for det offentlige) via SOAP. Leveret inden for en stram deadline på én måned
 - Implementering af SOAP webservice-klienter til overførsel af ansøgninger og e-indkomst fra ekstern kilde (eu.dk) til mainframe (VEU-ordningen)
-- Implementering af finanslovskrav om rabatter til udkantsdanmark via Ungdomskort; løbende kontakt med DSB, Midttrafik, Sydbus og Rejsekort
+- Implementering af finanslovskrav om rabatter til udkantsdanmark via Ungdomskort. Løbende kontakt med DSB, Midttrafik, Sydbus og Rejsekort
 
 *Startet som Specialekonsulent — forfremmet til Chefskonsulent*
 
@@ -63,7 +65,7 @@ Implementering og tilpasning af e-handelsløsninger på IBM E-Commerce-platforme
 
 Udviklede et kontantkortssystem for Nordea Norge. Projektets succes førte til realisering for det svenske marked med et salg på ca. 35.000 kort pr. måned.
 
-Deltog i design og implementering af totalløsning for Uno-X finansielle transaktioner fra tankstationer; transaktioner blev automatisk registreret og gjort tilgængelige via kundeportal, herunder:
+Deltog i design og implementering af totalløsning for Uno-X finansielle transaktioner fra tankstationer. Transaktioner blev automatisk registreret og gjort tilgængelige via kundeportal, herunder:
 - Generering af fakturaer i PDF-format og forsendelse til e-Boks og NemHandel
 - Kontrol af personoplysninger via RKI
 - Integration med plastkortproduktion
