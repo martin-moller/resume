@@ -12,7 +12,7 @@
 
 ## Resume
 
-Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som eneansvarlig opbygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og deltaget i platformsmigreringer. Jeg har desuden solid erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
+Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som eneansvarlig opbygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og deltaget i platformsmigreringer. Jeg har desuden god erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
 
 ---
 
@@ -42,11 +42,11 @@ Softwareudvikler i et team med ansvar for afdelingens systemer og eneansvarlig f
 - GitOps-deployment med ArgoCD og Helm
 - Konfiguration og drift af Traefik som ingress controller
 - Opgradering af Keycloak fra v17 til v26 på tværs af alle miljøer. Konfigurationsmigrering med keycloak-config-cli, NemLogin/MitID-integration via SAML og certifikathåndtering med OCES3/PKCS12
-- Deployment af Keycloak til intern applikation for administrativ adgang til skattedata (5-personers projektgruppe). Ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
+- Deployment af Keycloak til intern applikation for administrativ adgang til skattedata. Ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
 - Deltog i migrering af applikationer fra IBM WebSphere 8.5 til Tomcat. Udarbejdede indledende POC, fik applikationerne til at køre på Tomcat (primært build.gradle), sikrede korrekt migrering af keystores og truststores på tværs af miljøer og kuraterede property-filer
 - Opgradering af ElastiCache Redis på AWS
 - Migrering af adgangskoder, secrets og certifikater til AWS Secrets Manager
-- Løste produktionskritisk integrationsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag. Deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD
+- Løste kritisk produktionsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag. Deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD
 
 **Java-udvikling — udvalgte projekter:**
 - Implementering af integration fra Spring Boot til F2 (cBrains sagsbehandlingsplatform for det offentlige) via SOAP. Leveret inden for en stram deadline på én måned
