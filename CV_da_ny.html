@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Martin David Møller</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Calibri", "Arial", sans-serif;
+    font-size: 11pt;
+    color: #222;
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: #1a3a5c;
+    border-bottom: 2px solid #1a3a5c;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+  }
+  .contact {
+    font-size: 10pt;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  h2 {
+    font-size: 13pt;
+    font-weight: bold;
+    color: #1a3a5c;
+    border-bottom: 1px solid #c0cfe0;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #222;
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+  p { margin-bottom: 8px; }
+  ul {
+    margin-left: 18px;
+    margin-bottom: 8px;
+  }
+  li { margin-bottom: 2px; }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 4px 12px;
+    margin-bottom: 4px;
+  }
+  .skills-grid .label {
+    font-weight: bold;
+    color: #444;
+    font-size: 10pt;
+  }
+  .skills-grid .value {
+    font-size: 10pt;
+    color: #222;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    font-size: 10.5pt;
+  }
+  th {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+    padding: 3px 8px 3px 0;
+    color: #444;
+  }
+  td {
+    padding: 3px 8px 3px 0;
+    vertical-align: top;
+  }
+  .cert-list { list-style: none; margin-left: 0; }
+  .cert-list li { margin-bottom: 4px; }
+  .cert-list .year { font-weight: bold; color: #1a3a5c; min-width: 50px; display: inline-block; }
+  em { color: #555; font-style: italic; font-size: 10pt; }
+  .subsection-label {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    color: #333;
+  }
+  @media print {
+    body { padding: 0; max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Martin David Møller</h1>
+<div class="contact">
+  Belvederevej 13a, 3000 Helsingør &nbsp;|&nbsp; Tlf: 31 55 79 04 &nbsp;|&nbsp; moller.martin@gmail.com<br>
+  Født: 21. juli 1972 &nbsp;|&nbsp; Gift med June &nbsp;|&nbsp; Børn: Malthe (f. 2004), Eskild (f. 2008)
+</div>
+
+<h2>Resume</h2>
+<p>
+Erfaren chefkonsulent med over 20 års erfaring inden for Java-baseret systemudvikling i den offentlige sektor og en markant DevOps-profil de seneste år. Jeg har som de facto eneansvarlig opbygget og driftet ministeriets cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD, sikkerhedsdrift og platform-migreringer. Jeg har desuden opbygget specialiseret erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26 og SAML-baseret føderering med dansk offentlig identitetsinfrastruktur. Jeg er analytisk, struktureret og trives med at tage ejerskab over komplekse tekniske opgaver. Jeg er svensk og taler og skriver dansk flydende.
+</p>
+
+<h2>IT-kompetencer</h2>
+<div class="skills-grid">
+  <span class="label">DevOps &amp; platform</span>
+  <span class="value">Docker, Kubernetes (EKS), ArgoCD, Helm, Terraform, Jenkins, CI/CD pipelines, SonarQube, Traefik</span>
+  <span class="label">AWS</span>
+  <span class="value">EKS, EBS, NLB/ALB, VPC, Secrets Manager, ElastiCache</span>
+  <span class="label">Identitet &amp; sikkerhed</span>
+  <span class="value">Keycloak (v17–v26), NemLogin, MitID, SAML, OCES3/PKCS12, keycloak-config-cli</span>
+  <span class="label">Java / Backend</span>
+  <span class="value">Java (8→17), Spring Boot, J2EE, JSP, JSTL, JSF, Hibernate, JUnit, JAX-WS, JAX-RS, SOAP, REST, XML, XSD, WSDL</span>
+  <span class="label">Databaser</span>
+  <span class="value">Oracle, MySQL, PLSQL, SQL</span>
+  <span class="label">Frontend</span>
+  <span class="value">HTML5, JavaScript, jQuery</span>
+  <span class="label">Servere</span>
+  <span class="value">Tomcat, IBM WebSphere, Glassfish</span>
+  <span class="label">Versionsstyring</span>
+  <span class="value">Git, Bazaar</span>
+  <span class="label">Metoder</span>
+  <span class="value">Scrum, UML, Ant, MyEclipse</span>
+</div>
+
+<h2>Erhvervserfaring</h2>
+
+<h3>Chefskonsulent — Uddannelses- og Forskningsministeriet (2014–nu)</h3>
+<p>Softwareudvikler og de facto DevOps-ansvarlig med ansvar for implementering, drift og vedligeholdelse af ministeriets systemer og cloud-infrastruktur.</p>
+
+<p class="subsection-label">DevOps og infrastruktur:</p>
+<ul>
+  <li>Eneansvarlig for containerisering og orkestrering af applikationer med Docker og Kubernetes (EKS)</li>
+  <li>Etablering og vedligeholdelse af CI/CD pipelines med Jenkins, herunder integreret SonarQube-analyse</li>
+  <li>Infrastructure-as-code med Terraform på AWS (EKS, EBS, NLB/ALB, VPC, ElastiCache)</li>
+  <li>GitOps-deployment med ArgoCD og Helm; Traefik som ingress controller</li>
+  <li>Migrering af 8 applikationer fra Java 8 til Java 17</li>
+  <li>Projektgruppemedlem i migrering fra IBM WebSphere 8.5 til Tomcat; ansvarlig for SonarQube-opsætning, migrering af keystores og truststores, samt gennemgang og tilretning af property-filer for applikationerne US2000 og MINSU</li>
+  <li>Migrering af adgangskoder og hemmeligheder fra property-filer til AWS Secrets Manager</li>
+  <li>Opgradering af Jenkins samt løbende vedligeholdelse af CI/CD-miljøet, log rotation og rotation af access tokens</li>
+  <li>Løste produktionskritisk integrationsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag; deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD</li>
+</ul>
+
+<p class="subsection-label">Keycloak og identitetsinfrastruktur:</p>
+<ul>
+  <li>Fuld opgraderingscyklus af Keycloak fra v17 til v26 på tværs af alle miljøer: lokal udvikling, sandbox, devtest, staging og live</li>
+  <li>NemLogin/SAML-integration mod dansk offentlig identitetsinfrastruktur</li>
+  <li>Certifikathåndtering med OCES3/PKCS12 og løbende rotation</li>
+  <li>Konfigurationsmigrering med keycloak-config-cli</li>
+  <li>Deployment i AWS Kubernetes med ArgoCD og Helm; applikationspod samt job-pod til automatiseret konfiguration af Keycloak og MitID-integration</li>
+</ul>
+
+<p class="subsection-label">Java-udvikling — udvalgte projekter:</p>
+<ul>
+  <li>Implementering af integration fra Spring Boot til F2 (cBrains sagsbehandlingsplatform for det offentlige) via SOAP; leveret inden for en stram deadline på én måned</li>
+  <li>Implementering af SOAP webservice-klienter til overførsel af ansøgninger og eindkomst fra ekstern kilde (eu.dk) til mainframe (VEU-ordningen)</li>
+  <li>Lovpligtige koderettelser som følge af regelændringer (SVU)</li>
+  <li>Implementering af finanslovskrav om rabatter til udkantsdanmark via Ungdomskort; løbende kontakt med DSB, Midttrafik, Sydbus og Rejsekort</li>
+  <li>Java-baseret frontend til studiedokumentation for udlandsstuderende</li>
+</ul>
+<em>Startet som Specialekonsulent — forfremmet til Chefskonsulent</em>
+
+<h3>Konsulent — Theilgaard &amp; Mortensen (2013–2014)</h3>
+<p>Implementering og tilpasning af e-handelsløsninger på IBM E-Commerce-platformen i tæt samarbejde med kunder og projektdeltagere. Arbejdede med både front-end og back-end.</p>
+
+<h3>Softwareudvikler — Oberthur (2007–2013)</h3>
+<p>Udviklede et kontantkortssystem for Nordea Norge. Projektets succes førte til realisering for det svenske marked med et salg på ca. 35.000 kort pr. måned.</p>
+<p>Deltog i design og implementering af totalløsning for Uno-X finansielle transaktioner fra tankstationer og aktfuresystem, herunder generering og forsendelse af fakturaer (e-Boks/NemHandel), RKI-kontrol og integration med plastkortproduktion.</p>
+
+<h3>Systemekspert — SoftwarePoint (2006–2007)</h3>
+<p>Konsulentarbejde med LIMS-systemer. Udviklede et prøvehåndteringssystem for Danish Meat Association til bl.a. salmonellaanalyse hos grisebestande.</p>
+
+<h3>Analytisk kemiker — OSG, Los Angeles (2003)</h3>
+<p>Analyse af indgående kemikalier og færdige hygiejneprodukter.</p>
+
+<h2>Uddannelse</h2>
+<table>
+  <tr>
+    <th style="width:110px">År</th>
+    <th style="width:220px">Grad</th>
+    <th>Institution</th>
+  </tr>
+  <tr>
+    <td>2000–2004</td>
+    <td>Cand.scient., Datalogi</td>
+    <td>Lunds Universitet &amp; Den Kgl. Veterinær- og Landbohøjskole, København</td>
+  </tr>
+  <tr>
+    <td>1993–1999</td>
+    <td>Cand.scient., Kemiteknik</td>
+    <td>Lunds Tekniske Højskole, Sverige</td>
+  </tr>
+</table>
+
+<h2>Certificeringer</h2>
+<ul class="cert-list">
+  <li><span class="year">2015</span> ITIL Foundation</li>
+  <li><span class="year">2014</span> Oracle Certified Professional (OCP) — Java SE 7 Programmer II (1Z0-804)</li>
+  <li><span class="year">2014</span> Oracle Certified Associate (OCA) — Java SE 7 Programmer I (1Z0-803)</li>
+  <li><span class="year">2013</span> IBM Certified Application Developer — WebSphere Commerce V7.0 (C2050-723)</li>
+</ul>
+
+<h2>Personligt</h2>
+<div class="skills-grid">
+  <span class="label">Nationalitet</span><span class="value">Svensk, bosiddende i Danmark siden 1998</span>
+  <span class="label">Sprog</span><span class="value">Dansk (flydende), Svensk (modersmål), Engelsk</span>
+  <span class="label">Interesser</span><span class="value">Mountainbike, madlavning, læsning</span>
+</div>
+
+</body>
+</html>
