@@ -95,6 +95,13 @@ Analyse af indgående kemikalier og færdige hygiejneprodukter.
 
 ---
 
+## Certificeringer
+
+- **2015:** ITIL Foundation
+- **I gang:** AWS Certified Solutions Architect – Associate (forventet 2025)
+
+---
+
 ## Personligt
 
 Nationalitet: Svensk, bosiddende i Danmark siden 1998  
