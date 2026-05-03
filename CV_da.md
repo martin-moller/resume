@@ -1,18 +1,15 @@
 # Martin Möller
 
-**Adresse:** Belvederevej 13a, 3000 Helsingør  
 **Telefon:** 31 55 79 04  
 **E-mail:** moller.martin@gmail.com  
 **LinkedIn:** linkedin.com/in/martin-möller-6bb3b72  
 **GitHub:** github.com/martin-moller  
-**Født:** 21. juli 1972  
-**Civilstatus:** Gift med June — Børn: Malthe (f. 2004), Eskild (f. 2008)
 
 ---
 
 ## Resume
 
-Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som eneansvarlig opbygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og deltaget i platformsmigreringer. Jeg har desuden god erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
+Chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf 12 år i den offentlige sektor. De seneste år har jeg som eneansvarlig bygget og driftet afdelingens cloud-infrastruktur på AWS og Kubernetes, stået for CI/CD og certifikathåndtering og gennemført platformsmigreringer. Jeg har desuden solid erfaring med Keycloak og NemLogin/MitID-integration, herunder fuld opgraderingscyklus fra v17 til v26. Jeg er svensk og taler og skriver dansk flydende.
 
 ---
 
@@ -21,7 +18,7 @@ Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf
 **DevOps & platform:** Docker, Kubernetes (EKS), ArgoCD, Helm, Terraform, Jenkins, CI/CD pipelines, SonarQube, Traefik
 **AWS:** EKS, EBS, NLB/ALB, VPC, Secrets Manager, ElastiCache
 **Identitet & sikkerhed:** Keycloak (v17→v26), NemLogin, MitID, SAML, OCES3/PKCS12, keycloak-config-cli
-**Java / Backend:** Java (8→17), Spring Boot, JSP, JSTL, SOAP, REST
+**Java / Backend:** Java (8→17), Spring Boot, SOAP, REST
 **Databaser:** Oracle, MySQL, PLSQL, SQL
 **Servere & middleware:** Tomcat, IBM WebSphere
 **Versionsstyring:** Git
@@ -36,22 +33,21 @@ Erfaren chefkonsulent med over 20 års erfaring inden for systemudvikling, heraf
 Softwareudvikler i et team med ansvar for afdelingens systemer og eneansvarlig for DevOps og cloud-infrastruktur.
 
 **DevOps og infrastruktur:**
-- Eneansvarlig for containerisering og orkestrering af applikationer med Docker og Kubernetes (EKS)
-- Etablering og vedligeholdelse af CI/CD pipelines med Jenkins, herunder integreret SonarQube-analyse
-- Infrastructure-as-code med Terraform på AWS (EKS, EBS, NLB/ALB, VPC, ElastiCache)
-- GitOps-deployment med ArgoCD og Helm
-- Konfiguration og drift af Traefik som ingress controller
-- Opgradering af Keycloak fra v17 til v26 på tværs af alle miljøer. Konfigurationsmigrering med keycloak-config-cli, NemLogin/MitID-integration via SAML og certifikathåndtering med OCES3/PKCS12
-- Deployment af Keycloak til intern applikation for administrativ adgang til skattedata. Ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
-- Deltog i migrering af applikationer fra IBM WebSphere 8.5 til Tomcat. Udarbejdede indledende POC, fik applikationerne til at køre på Tomcat (primært build.gradle), sikrede korrekt migrering af keystores og truststores på tværs af miljøer og kuraterede property-filer
-- Opgradering af ElastiCache Redis på AWS
-- Migrering af adgangskoder, secrets og certifikater til AWS Secrets Manager
-- Løste kritisk produktionsfejl ved at identificere et tilbagekaldt OCES 3-certifikat som rodårsag. Deployede nyt certifikat til AWS Secrets Manager og genetablerede integrationen via ArgoCD
+- Bygger og driver containeriseret applikationsplatform med Docker og Kubernetes (EKS) — som eneste ansvarlige
+- Etablerede og vedligeholder CI/CD pipelines med Jenkins, herunder integreret SonarQube-analyse
+- Styrer infrastruktur som kode med Terraform på AWS (EKS, EBS, NLB/ALB, VPC, ElastiCache)
+- Deployer med GitOps via ArgoCD og Helm; konfigurerer Traefik som ingress controller
+- Opgraderede Keycloak fra v17 til v26 på tværs af alle miljøer: konfigurationsmigrering med keycloak-config-cli, NemLogin/MitID-integration via SAML, certifikathåndtering med OCES3/PKCS12
+- Deployede Keycloak til intern applikation for administrativ adgang til skattedata — ansvarlig for applikationspod og job-pod til automatiseret konfiguration og MitID-integration
+- Migrerede applikationer fra IBM WebSphere 8.5 til Tomcat: udarbejdede POC, tilpassede builds (Gradle), migrerede keystores og truststores på tværs af miljøer
+- Opgraderede ElastiCache Redis på AWS
+- Migrerede adgangskoder, secrets og certifikater til AWS Secrets Manager
+- Identificerede et tilbagekaldt OCES3-certifikat som årsag til en kritisk produktionsfejl; deployede nyt certifikat til Secrets Manager og genetablerede integrationen via ArgoCD
 
 **Java-udvikling — udvalgte projekter:**
-- Implementering af integration fra Spring Boot til F2 (cBrains sagsbehandlingsplatform for det offentlige) via SOAP. Leveret inden for en stram deadline på én måned
-- Implementering af SOAP webservice-klienter til overførsel af ansøgninger og e-indkomst fra ekstern kilde (eu.dk) til mainframe (VEU-ordningen)
-- Implementering af finanslovskrav om rabatter til udkantsdanmark via Ungdomskort. Løbende kontakt med DSB, Midttrafik, Sydbus og Rejsekort
+- Implementerede Spring Boot-integration til F2 (cBrains sagsbehandlingsplatform) via SOAP — leveret inden for én måned
+- Byggede SOAP webservice-klienter til overførsel af ansøgninger og e-indkomst fra eu.dk til mainframe (VEU-ordningen)
+- Implementerede finanslovskrav om rabatter til udkantsdanmark via Ungdomskort; koordinerede løbende med DSB, Midttrafik, Sydbus og Rejsekort
 
 *Startet som Specialekonsulent — forfremmet til Chefkonsulent*
 
@@ -59,7 +55,7 @@ Softwareudvikler i et team med ansvar for afdelingens systemer og eneansvarlig f
 
 ### Konsulent — Theilgaard & Mortensen (2013–2014)
 
-Implementering og tilpasning af e-handelsløsninger på IBM E-Commerce-platformen i tæt samarbejde med kunder og projektdeltagere. Arbejdede med både front-end og back-end.
+Implementerede og tilpassede e-handelsløsninger på IBM E-Commerce-platformen i tæt samarbejde med kunder og projektdeltagere. Arbejdede med både front-end og back-end.
 
 ---
 
@@ -67,7 +63,7 @@ Implementering og tilpasning af e-handelsløsninger på IBM E-Commerce-platforme
 
 Udviklede et kontantkortssystem for Nordea Norge. Projektets succes førte til realisering for det svenske marked med et salg på ca. 35.000 kort pr. måned.
 
-Deltog i design og implementering af totalløsning for Uno-X finansielle transaktioner fra tankstationer. Transaktioner blev automatisk registreret og gjort tilgængelige via kundeportal, herunder:
+Designede og implementerede totalløsning for Uno-X finansielle transaktioner fra tankstationer. Transaktioner blev automatisk registreret og gjort tilgængelige via kundeportal, herunder:
 - Generering af fakturaer i PDF-format og forsendelse til e-Boks og NemHandel
 - Kontrol af personoplysninger via RKI
 - Integration med plastkortproduktion
@@ -105,5 +101,5 @@ Analyse af indgående kemikalier og færdige hygiejneprodukter.
 ## Personligt
 
 Nationalitet: Svensk, bosiddende i Danmark siden 1998  
-Sprog: Dansk (flydende), Svensk (modersmål), Engelsk (flydende) 
+Sprog: Dansk (flydende), Svensk (modersmål), Engelsk (flydende)  
 Interesser: Mountainbike, madlavning, læsning
