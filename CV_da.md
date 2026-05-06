@@ -87,7 +87,7 @@ Analyse af indgående kemikalier og færdige hygiejneprodukter.
 | År | Grad | Institution |
 |---|---|---|
 | 2000–2004 | Cand.scient., Datalogi | Lunds Universitet & Den Kgl. Veterinær- og Landbohøjskole, København |
-| 1993–1999 | Cand.scient., Kemiteknik | Lunds Tekniske Højskole, Sverige |
+| 1993–1999 | Civilingenjör (MSc), Kemiteknik | Lunds Tekniske Højskole, Sverige |
 
 ---
 
